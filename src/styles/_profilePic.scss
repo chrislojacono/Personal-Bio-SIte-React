@@ -1,0 +1,24 @@
+
+.app{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+
+}
+
+
+
+.profilePic{
+    width: 60%;
+    height: 80%;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;  
+}
+
+.infoContainer{
+    height: 50vh;
+}
