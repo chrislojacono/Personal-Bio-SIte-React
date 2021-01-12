@@ -5,8 +5,144 @@ import bearWatcher from '../images/bearWatcher.png';
 import pantsProj from '../images/pants.png';
 import dinoKennel from '../images/dinoKennel.png';
 import chatty from '../images/parksAndRec.png';
+import leBaquette from '../images/michelin.png';
+import freelancer from '../images/freelancer.png';
+import pinterest from '../images/pinterest.png';
+import adventure from '../images/adventurelogbook.png';
+import mushroom from '../images/mushroomPicker.png';
+import sports from '../images/sportsRoster.png';
+import reactPin from '../images/pinterest3.png';
 
 const projectArray = [
+  {
+    available: true,
+    date: 'December 13, 2020',
+    description:
+      'This was my front-end Capstone Project! A site for rock climbers to easily find the most classic climbs in any area around the world!',
+    githubUrl: 'https://github.com/chrislojacono/adventure-logbook-capstone',
+    id: 15,
+    screenshot: adventure,
+    technologiesUsed:
+      'Google Maps API, Mountain Project API, Open Weather API, React.js, Material UI',
+    title: 'The Adventure LogBook',
+    url: 'https://adventure-logbook.netlify.app/',
+  },
+  {
+    available: true,
+    date: 'October 31, 2020',
+    description:
+      'This was a group project working with CRUD, firebase and complex data manipulation. We built a restaurant dashboard for guests and management to use.',
+    githubUrl:
+      'https://github.com/chrislojacono/michelin-star-restaurant-dashboard-michelin-star-restaurant-dashboard',
+    id: 9,
+    screenshot: leBaquette,
+    technologiesUsed:
+      'Vanilla Javascript ES6, JQuery, Webpack w/ Modules, Firebase, OAuth',
+    title: 'Le Baguette',
+    url: 'https://le-baguette-e03bd.web.app/#',
+  },
+  {
+    available: true,
+    date: 'November 6, 2020',
+    description:
+      'This was a group project to test our use of complex data with intermediary tables and the use of Promises from API calls"',
+    githubUrl:
+      'https://github.com/chrislojacono/renaissance-fair-dashboard-renaissance-fair-dashboard',
+    id: 10,
+    screenshot: freelancer,
+    technologiesUsed:
+      'Vanilla Javascript ES6, JQuery, Webpack, Firebase, AmCharts, Oauth',
+    title: 'Freelancer Renaissance Fair',
+    url: 'https://freelancer-f77ce.web.app/',
+  },
+  {
+    available: true,
+    date: 'November 22, 2020',
+    description:
+      'This was another replica of Pinterest, but we built it with React.js this time!',
+    githubUrl: 'https://github.com/chrislojacono/react-pinterest',
+    id: 14,
+    screenshot: reactPin,
+    technologiesUsed: 'React.js, ReactStrap, Firebase, OAuth',
+    title: 'React Pinterest',
+    url: 'https://pinterest3.netlify.app/',
+  },
+
+  {
+    id: 5,
+    title: 'Pants Store Group Project',
+    screenshot: pantsProj,
+    description:
+      'We wanted to incorporate the use of wireframes, github project boards and the process of assigning and completing issue tickets',
+    technologiesUsed: 'Vanilla Javascript ES6, HTML5, CSS3',
+    available: true,
+    url: 'https://extraordinarycorduroy.netlify.app/',
+    githubUrl: 'https://github.com/chrislojacono/',
+    date: 'August 31, 2020',
+  },
+  {
+    id: 6,
+    title: 'Dino Kennel Milestone Project',
+    screenshot: dinoKennel,
+    description:
+      'The motivation was for us to showcase all the skills we had learned with Vanilla Javascript up until this point. We had to do the whole project solo and incorporate all the things we had learned.',
+    technologiesUsed: 'Javascript ES6, JQuery, HTML5, CSS3 and Modules',
+    available: true,
+    url: 'https://dino-kennelcl.netlify.app/',
+    githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',
+    date: 'September 7, 2020',
+  },
+  {
+    id: 7,
+    title: 'Chatty Group Project',
+    screenshot: chatty,
+    description:
+      'This was a group project to build a chat room with multiple users, emojis, a giphy API, local storage, and chat bots.',
+    technologiesUsed:
+      'Javascript ES6, JQuery, HTML5, SASS, And a Webpack with Modules, giphy API',
+    available: true,
+    url: 'https://parksandrecchatty.netlify.app/',
+    githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
+    date: 'September 14, 2020',
+  },
+  {
+    available: true,
+    date: 'October 5, 2020',
+    description:
+      'This Project was to use firbase as our API and make a webpage with full CRUD capabilities. Users can add, edit, view and delete boards, and each board has pins that they have added to specific boards.',
+    githubUrl: 'https://github.com/chrislojacono/Pinterest',
+    id: 8,
+    screenshot: pinterest,
+    technologiesUsed:
+      'Vanilla Javascript ES6, JQuery, Webpack w/ Modules, Firebase',
+    title: 'Pinterest 2.0',
+    url: 'https://pinterest-5eb3d.web.app',
+  },
+
+  {
+    available: true,
+    date: 'November 15, 2020',
+    description:
+      'This was an extra assignment to practice building in React with React Router',
+    githubUrl: 'https://github.com/chrislojacono/mushroom-picker-react',
+    id: 12,
+    screenshot: mushroom,
+    technologiesUsed: 'React.js, React.Router, Firebase, OAuth',
+    title: 'Mushroom Picker',
+    url: 'https://mushroom-picker.netlify.app/',
+  },
+  {
+    available: true,
+    date: 'November 18, 2020',
+    description:
+      'This was another optional assignment to practice CRUD functionality within React.js',
+    githubUrl: 'https://github.com/chrislojacono/sports-roster',
+    id: 13,
+    screenshot: sports,
+    technologiesUsed: 'React.js, Firebase, OAuth, MockARoo',
+    title: 'Nashville Preds Roster',
+    url: 'https://sports-roster.netlify.app/',
+  },
   {
     id: 1,
     title: 'Adoption Website',
@@ -58,43 +194,7 @@ const projectArray = [
     githubUrl: 'https://github.com/chrislojacono/Bear-Watcher',
     date: 'August 19, 2020',
   },
-  {
-    id: 5,
-    title: 'Pants Store Group Project',
-    screenshot: pantsProj,
-    description:
-      'We wanted to incorporate the use of wireframes, github project boards and the process of assigning and completing issue tickets',
-    technologiesUsed: 'Vanilla Javascript ES6, HTML5, CSS3',
-    available: true,
-    url: 'https://extraordinarycorduroy.netlify.app/',
-    githubUrl: 'https://github.com/chrislojacono/',
-    date: 'August 31, 2020',
-  },
-  {
-    id: 6,
-    title: 'Dino Kennel Milestone Project',
-    screenshot: dinoKennel,
-    description:
-      'The motivation was for us to showcase all the skills we had learned with Vanilla Javascript up until this point. We had to do the whole project solo and incorporate all the things we had learned.',
-    technologiesUsed: 'Javascript ES6, JQuery, HTML5, CSS3 and Modules',
-    available: true,
-    url: 'https://dino-kennelcl.netlify.app/',
-    githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',
-    date: 'September 7, 2020',
-  },
-  {
-    id: 7,
-    title: 'Chatty Group Project',
-    screenshot: chatty,
-    description:
-      'This was a group project to build a chat room with multiple users, emojis, a giphy API, local storage, and chat bots.',
-    technologiesUsed:
-      'Javascript ES6, JQuery, HTML5, SASS, And a Webpack with Modules, giphy API',
-    available: true,
-    url: 'https://parksandrecchatty.netlify.app/',
-    githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
-    date: 'September 14, 2020',
-  },
+
 ];
 
 export default projectArray;
