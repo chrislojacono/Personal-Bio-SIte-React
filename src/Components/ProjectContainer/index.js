@@ -6,7 +6,7 @@ export default function ProjectContainer() {
   return (
     <div className='d-flex flex-wrap'>
       {projectArray.map((project) => (
-        <ProjectCard projectData={project} />
+        <ProjectCard key={project.id} projectData={project} />
       ))}
     </div>
   );
