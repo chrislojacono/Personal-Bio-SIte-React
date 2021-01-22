@@ -7,7 +7,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
+// import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
@@ -18,6 +18,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+    margin: 10,
   },
   media: {
     height: 0,
@@ -47,13 +48,8 @@ export default function ProjectCard({ projectData }) {
   };
 
   return (
-    <Card className={classes.root}>
+    <Card className={`${classes.root} d-flex flex-column`}>
       <CardHeader
-        // avatar={
-        // //   <Avatar aria-label="recipe" className={classes.avatar}>
-        // //     R
-        // //   </Avatar>
-        // }
         action={
           <IconButton aria-label="settings">
             <MoreVertIcon />
@@ -72,10 +68,10 @@ export default function ProjectCard({ projectData }) {
         {projectData.description}
         </Typography>
       </CardContent>
-      <CardActions disableSpacing>
+      <CardActions disableSpacing className='d-flex justify-content-center mt-auto' >
         <IconButton aria-label="add to favorites">
         <a href={projectData.githubUrl} target='_blank' rel='noreferrer'>
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
           </a>
         </IconButton>
         <IconButton aria-label="share">
@@ -96,28 +92,13 @@ export default function ProjectCard({ projectData }) {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Technologies Used:</Typography>
+        <Typography paragraph>
+            {projectData.description2}
+          </Typography>
+          <Typography paragraph><b>Technologies Used:</b></Typography>
           <Typography paragraph>
             {projectData.technologiesUsed}
           </Typography>
-          {/* <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
-            heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly
-            browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken
-            and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion, salt and
-            pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add
-            saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
-          </Typography>
-          <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook
-            without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to
-            medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook
-            again without stirring, until mussels have opened and rice is just tender, 5 to 7
-            minutes more. (Discard any mussels that don’t open.)
-          </Typography>
-          <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then serve.
-          </Typography> */}
         </CardContent>
       </Collapse>
     </Card>

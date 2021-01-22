@@ -4,9 +4,9 @@ import projectArray from '../../helpers/data/projectData';
 
 export default function ProjectContainer() {
   return (
-    <div className='d-flex flex-wrap'>
+    <div className='d-flex flex-wrap' id="projectSection">
       {projectArray.map((project) => (
-        <ProjectCard projectData={project} />
+        <ProjectCard key={project.id} projectData={project} />
       ))}
     </div>
   );

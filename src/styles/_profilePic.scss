@@ -12,11 +12,13 @@
 
 
 .profilePic{
-    width: 60%;
-    height: 80%;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
     margin: 20px;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
+    border-radius: 20px;  
 }
 
 .infoContainer{

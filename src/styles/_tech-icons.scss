@@ -1,0 +1,31 @@
+.fab{
+    img{
+        height: 50px;
+    }
+}
+.technologies{
+    height: 100%;
+    width:100%;
+    border: 2px black solid;
+    padding: 20px;
+    overflow: hidden;
+    h3{
+        // font-size: 2vw;
+        text-decoration: underline;
+    }
+
+}
+.techIcons{
+    display: flex;
+    flex-flow: row wrap;
+
+    i{
+       font-size: 5vw;
+       margin: 20px;
+       height: 30%;
+       color: white;
+    }
+}
+.technologiesHeader{
+    color: white;
+}
