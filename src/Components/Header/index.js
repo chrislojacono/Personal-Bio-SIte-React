@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Header() {
   const classes = useStyles();
   return (
-   <>
+   <div className="wholeHeader">
     <header className='head d-flex flex-column'>
       <h1>Chris LoJacono</h1>
       <h6 className='headerInfo'>Full Stack Web-Developer</h6>
@@ -52,7 +52,6 @@ export default function Header() {
         </div>
       </div>
     </div>
-
-      </>
+  </div>
   );
 }
