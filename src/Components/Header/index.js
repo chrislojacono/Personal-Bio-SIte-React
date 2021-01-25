@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import HomeIcon from '@material-ui/icons/Home';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import GrainIcon from '@material-ui/icons/Grain';
@@ -12,7 +11,8 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   icon: {
-    marginRight: theme.spacing(0.5),
+    marginRight: theme.spacing(0.8),
+    marginBottom: theme.spacing(0.5),
     width: 20,
     height: 20,
   },
@@ -26,22 +26,22 @@ export default function Header() {
     <header className='head d-flex flex-column'>
       <h1>Chris LoJacono</h1>
       <h6 className='headerInfo'>Full Stack Web-Developer</h6>
-      <Breadcrumbs aria-label="breadcrumb" className='d-flex mt-auto m-3 justify-content-center'style={{ color: 'blanchedalmond' }}>
-      <a href="#aboutMe">
+      <div className='breadCrumbIcons d-flex mt-auto m-3 justify-content-center flex-wrap'style={{ color: 'blanchedalmond' }}>
+      <a href="#aboutMe" className='m-2'>
       <HomeIcon className={classes.icon} />
         About Me
       </a>
-      <a href="#technology">
+      <a href="#technology" className='m-2'>
       <WhatshotIcon className={classes.icon} />
         Technologies
       </a>
-      <a href="#projectSection">
+      <a href="#projectSection" className='m-2'>
       <Typography color="inherit" className={classes.link}>
         <GrainIcon className={classes.icon} />
         Projects
       </Typography>
       </a>
-    </Breadcrumbs>
+    </div>
     </header>
     </div>
     <div className='infoContainer'>

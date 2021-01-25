@@ -17,12 +17,31 @@
     }
     .aboutMe{
         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
         width: 90%;
         margin-left: 10px;
         p{
-            font-size: 16px;
+            font-size: 18px;
+          }
+          .aboutChild{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              p{
+                  margin: 10px 5px;
+                  justify-content: center;
+              }
           }
     }
+    .breadCrumbIcons{
+        flex-wrap: none;
+        display: flex !important ;
+        justify-content: center !important;
+        }
     .techIcons{
         display: flex;
         flex-flow: row wrap;
