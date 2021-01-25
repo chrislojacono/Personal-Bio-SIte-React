@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Header() {
   const classes = useStyles();
   return (
+    <>
    <div className="wholeHeader">
     <header className='head d-flex flex-column'>
       <h1>Chris LoJacono</h1>
@@ -42,16 +43,17 @@ export default function Header() {
       </a>
     </Breadcrumbs>
     </header>
-    <div className='d-flex container-fluid infoContainer'>
+    </div>
+    <div className='infoContainer'>
     <div className="profilePic" style={{ backgroundImage: `url(${profilePic})` }}>
       </div>
-      <div className="aboutMe container-md clearfix" id="aboutMe">
+      <div className="aboutMe" id="aboutMe">
         <div className="aboutChild mt-1">
           <h3>About Me</h3>
           <p>My name is Chris LoJacono, local to Nashville, TN, and  am currently a student attending The Nashville Software School. Our cohort is a full stack program with a front end focus on Javascript/React.js and a back-end focus on C#/.NET. Over the past few years I've learned that I was drawn towards problem solving and I am a person that deeply strives to find things that offer a challenge. Software development checked all the boxes for me. The aspect of working in teams, untangling code, and using logic to solve problems was exactly what I am looking for in a career. </p>
         </div>
       </div>
     </div>
-  </div>
+    </>
   );
 }

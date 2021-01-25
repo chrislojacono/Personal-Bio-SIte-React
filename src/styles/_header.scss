@@ -2,13 +2,13 @@
     background-color: black;
     height: auto;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
     h1{
         padding-top: 1em;
         letter-spacing: 0.15em;
-        // text-transform: uppercase;
         color: blanchedalmond;
-        font-size: 20px;
+        font-size: 40px;
 
     }
     .headerInfo{
@@ -17,6 +17,7 @@
         font-size: 17px;
         letter-spacing: 0.25em;
         margin-bottom: 20px;
+        text-transform: italic;
 
     }
     a{
@@ -31,6 +32,5 @@
       margin-left: 40px;
       p{
           font-size: 2vh;
-      }
+        }
   }
-  

@@ -2,9 +2,14 @@ import React from 'react';
 
 export default function Technologies() {
   return (
-    <div className='technologies d-flex flex-wrap justify-content-center'id="technology">
+    <div
+      className='technologies d-flex flex-wrap justify-content-center'
+      id='technology'
+    >
       <div className='aboutChild'>
-        <h3 className='technologiesHeader d-flex justify-content-center'>Technologies</h3>
+        <h3 className='technologiesHeader d-flex justify-content-center'>
+          Technologies
+        </h3>
         <div className='techIcons d-flex'>
           <i className='fab fa-react'></i>
           <i className='fab fa-js'></i>
