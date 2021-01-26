@@ -27,15 +27,15 @@ export default function Header() {
       <h1>Chris LoJacono</h1>
       <h6 className='headerInfo'>Full Stack Web-Developer</h6>
       <div className='breadCrumbIcons d-flex mt-auto m-3 justify-content-center flex-wrap'style={{ color: 'blanchedalmond' }}>
-      <a href="#aboutMe" className='m-2'>
+      <a href="#aboutMe" className='m-2 grow'>
       <HomeIcon className={classes.icon} />
         About Me
       </a>
-      <a href="#technology" className='m-2'>
+      <a href="#technology" className='m-2 grow'>
       <WhatshotIcon className={classes.icon} />
         Technologies
       </a>
-      <a href="#projectSection" className='m-2'>
+      <a href="#projectSection" className='m-2 grow'>
       <Typography color="inherit" className={classes.link}>
         <GrainIcon className={classes.icon} />
         Projects
