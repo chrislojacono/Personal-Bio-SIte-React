@@ -48,7 +48,7 @@ export default function ProjectCard({ projectData }) {
   };
 
   return (
-    <Card className={`${classes.root} d-flex flex-column`}>
+    <Card className={`${classes.root} d-flex flex-column grow`}>
       <CardHeader
         action={
           <IconButton aria-label="settings">
