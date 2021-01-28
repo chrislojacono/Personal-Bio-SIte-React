@@ -33,3 +33,7 @@
 .grow:hover { 
   transform: scale(1.03); 
 }
+
+.MuiCardHeader-title{
+    white-space: nowrap !important;
+}
