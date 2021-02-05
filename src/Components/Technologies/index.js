@@ -6,6 +6,7 @@ import SASS from './sass';
 import BootstrapIcon from './bootstrap';
 import GitIcon from './git';
 import GithubIcon from './github';
+import HTMLIcon from './html';
 
 export default function Technologies() {
   return (
@@ -25,7 +26,7 @@ export default function Technologies() {
           <BootstrapIcon/>
           <GitIcon/>
           <GithubIcon/>
-          <GithubIcon className='fab fa-html5'></GithubIcon>
+          <HTMLIcon/>
           <i className='fab fa-css3-alt'></i>
         </div>
       </div>
