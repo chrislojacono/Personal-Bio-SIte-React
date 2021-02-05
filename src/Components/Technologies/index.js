@@ -9,6 +9,7 @@ import GithubIcon from './github';
 import HTMLIcon from './html';
 import CSS3Icon from './css';
 import CSharpIcon from './cSharp';
+import MaterialIcon from './materialUi';
 
 export default function Technologies() {
   return (
@@ -25,6 +26,7 @@ export default function Technologies() {
           <ReactIcon/>
           <JavascriptIcon/>
           <NodeIcon/>
+          <MaterialIcon/>
           <SASS/>
           <BootstrapIcon/>
           <GitIcon/>

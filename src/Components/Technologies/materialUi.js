@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
+import MaterialImg from '../../helpers/images/logo.png';
 
 const useStyles = makeStyles((theme) => ({
   typography: {
@@ -9,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function JavascriptPopover() {
+export default function MaterialPopover() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -26,13 +27,15 @@ export default function JavascriptPopover() {
 
   return (
     <div>
-      <i
+      <img
+        src={MaterialImg}
+        alt='materialImg'
+        className="materialIcon mt-3"
         aria-describedby={id}
         variant='contained'
         color='none'
         onClick={handleClick}
-        className='fab fa-js'
-      ></i>
+      />
       <Popover
         id={id}
         open={open}
@@ -47,7 +50,7 @@ export default function JavascriptPopover() {
           horizontal: 'center',
         }}
       >
-        <Typography className={classes.typography}>Javascript ES6</Typography>
+        <Typography className={classes.typography}>Material UI</Typography>
       </Popover>
     </div>
   );
