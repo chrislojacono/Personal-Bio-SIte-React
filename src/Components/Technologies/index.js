@@ -1,4 +1,16 @@
 import React from 'react';
+import ReactIcon from './react';
+import JavascriptIcon from './javascript';
+import NodeIcon from './node';
+import SASS from './sass';
+import BootstrapIcon from './bootstrap';
+import GitIcon from './git';
+import GithubIcon from './github';
+import HTMLIcon from './html';
+import CSS3Icon from './css';
+import CSharpIcon from './cSharp';
+import MaterialIcon from './materialUi';
+import DotNet from './net';
 
 export default function Technologies() {
   return (
@@ -11,15 +23,18 @@ export default function Technologies() {
           Technologies
         </h3>
         <div className='techIcons d-flex'>
-          <i className='fab fa-react'></i>
-          <i className='fab fa-js'></i>
-          <i className='fab fa-node'></i>
-          <i className='fab fa-sass'></i>
-          <i className='fab fa-bootstrap'></i>
-          <i className='fab fa-git'></i>
-          <i className='fab fa-github-square'></i>
-          <i className='fab fa-html5'></i>
-          <i className='fab fa-css3-alt'></i>
+          <CSharpIcon/>
+          <DotNet/>
+          <ReactIcon/>
+          <JavascriptIcon/>
+          <NodeIcon/>
+          <MaterialIcon/>
+          <SASS/>
+          <BootstrapIcon/>
+          <GitIcon/>
+          <GithubIcon/>
+          <HTMLIcon/>
+          <CSS3Icon/>
         </div>
       </div>
     </div>

@@ -64,12 +64,12 @@ export default function ProjectCard({ projectData }) {
       <CardActions disableSpacing className='d-flex justify-content-center mt-auto' >
         <IconButton aria-label="add to favorites">
         <a href={projectData.githubUrl} target='_blank' rel='noreferrer'>
-        <i className="fab fa-github"></i>
+        <i className="fab fa-github cardIcon"></i>
           </a>
         </IconButton>
         <IconButton aria-label="share">
         <a href={projectData.url} target='_blank' rel='noreferrer'>
-          <ShareIcon />
+          <ShareIcon className="cardIcon"/>
         </a>
         </IconButton>
         <IconButton
