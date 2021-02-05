@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function BootstrapPopover() {
+export default function GithubPopover() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -31,7 +31,7 @@ export default function BootstrapPopover() {
         variant='contained'
         color='none'
         onClick={handleClick}
-        className='fab fa-bootstrap'
+        className='fab fa-github-square'
       ></i>
       <Popover
         id={id}
@@ -47,7 +47,7 @@ export default function BootstrapPopover() {
           horizontal: 'center',
         }}
       >
-        <Typography className={classes.typography}>Bootstrap 4</Typography>
+        <Typography className={classes.typography}>Github</Typography>
       </Popover>
     </div>
   );

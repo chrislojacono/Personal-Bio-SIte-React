@@ -4,6 +4,8 @@ import JavascriptIcon from './javascript';
 import NodeIcon from './node';
 import SASS from './sass';
 import BootstrapIcon from './bootstrap';
+import GitIcon from './git';
+import GithubIcon from './github';
 
 export default function Technologies() {
   return (
@@ -21,9 +23,9 @@ export default function Technologies() {
           <NodeIcon/>
           <SASS/>
           <BootstrapIcon/>
-          <BootstrapIcon className='fab fa-git'></BootstrapIcon>
-          <i className='fab fa-github-square'></i>
-          <i className='fab fa-html5'></i>
+          <GitIcon/>
+          <GithubIcon/>
+          <GithubIcon className='fab fa-html5'></GithubIcon>
           <i className='fab fa-css3-alt'></i>
         </div>
       </div>
