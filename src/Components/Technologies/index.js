@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactIcon from './react';
 import JavascriptIcon from './javascript';
+import NodeIcon from './node';
 
 export default function Technologies() {
   return (
@@ -15,8 +16,8 @@ export default function Technologies() {
         <div className='techIcons d-flex'>
           <ReactIcon/>
           <JavascriptIcon/>
-          <i className='fab fa-node'></i>
-          <i className='fab fa-sass'></i>
+          <NodeIcon/>
+          <NodeIcon className='fab fa-sass'></NodeIcon>
           <i className='fab fa-bootstrap'></i>
           <i className='fab fa-git'></i>
           <i className='fab fa-github-square'></i>
