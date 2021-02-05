@@ -2,6 +2,7 @@ import React from 'react';
 import ReactIcon from './react';
 import JavascriptIcon from './javascript';
 import NodeIcon from './node';
+import SASS from './sass';
 
 export default function Technologies() {
   return (
@@ -17,7 +18,7 @@ export default function Technologies() {
           <ReactIcon/>
           <JavascriptIcon/>
           <NodeIcon/>
-          <NodeIcon className='fab fa-sass'></NodeIcon>
+          <SASS/>
           <i className='fab fa-bootstrap'></i>
           <i className='fab fa-git'></i>
           <i className='fab fa-github-square'></i>
