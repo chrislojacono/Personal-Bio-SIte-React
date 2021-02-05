@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
-import CsharpImg from '../../helpers/images/csharp.png';
+import DotNet from '../../helpers/images/netlogo1.png';
 
 const useStyles = makeStyles((theme) => ({
   typography: {
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CSSPopover() {
+export default function DotNetPopover() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -27,10 +27,10 @@ export default function CSSPopover() {
 
   return (
     <div>
-    <img
-        className='cSharpLogo mt-3'
-        src={CsharpImg}
-        alt='c sharp'
+      <img
+        src={DotNet}
+        alt='materialImg'
+        className="dotNetIcon mt-3 ml-3"
         aria-describedby={id}
         variant='contained'
         color='none'
@@ -50,7 +50,7 @@ export default function CSSPopover() {
           horizontal: 'center',
         }}
       >
-        <Typography className={classes.typography}>C# 9.0</Typography>
+        <Typography className={classes.typography}>.Net Core</Typography>
       </Popover>
     </div>
   );

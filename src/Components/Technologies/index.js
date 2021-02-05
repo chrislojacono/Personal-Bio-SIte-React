@@ -10,6 +10,7 @@ import HTMLIcon from './html';
 import CSS3Icon from './css';
 import CSharpIcon from './cSharp';
 import MaterialIcon from './materialUi';
+import DotNet from './net';
 
 export default function Technologies() {
   return (
@@ -23,6 +24,7 @@ export default function Technologies() {
         </h3>
         <div className='techIcons d-flex'>
           <CSharpIcon/>
+          <DotNet/>
           <ReactIcon/>
           <JavascriptIcon/>
           <NodeIcon/>
