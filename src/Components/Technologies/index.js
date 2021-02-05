@@ -8,6 +8,7 @@ import GitIcon from './git';
 import GithubIcon from './github';
 import HTMLIcon from './html';
 import CSS3Icon from './css';
+import CSharpIcon from './cSharp';
 
 export default function Technologies() {
   return (
@@ -20,6 +21,7 @@ export default function Technologies() {
           Technologies
         </h3>
         <div className='techIcons d-flex'>
+          <CSharpIcon/>
           <ReactIcon/>
           <JavascriptIcon/>
           <NodeIcon/>
