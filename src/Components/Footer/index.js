@@ -50,7 +50,7 @@ export default function Footer() {
               ></i>
             </a>
           </li>
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="d-flex justify-content-center align-items-center resumeIcon">
             <MyResume />
           </div>
         </ul>
