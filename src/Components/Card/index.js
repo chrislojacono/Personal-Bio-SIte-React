@@ -62,16 +62,30 @@ export default function ProjectCard({ projectData }) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing className='d-flex justify-content-center mt-auto' >
-        <IconButton aria-label="add to favorites">
-        <a href={projectData.githubUrl} target='_blank' rel='noreferrer'>
-        <i className="fab fa-github cardIcon"></i>
-          </a>
-        </IconButton>
-        <IconButton aria-label="share">
-        <a href={projectData.url} target='_blank' rel='noreferrer'>
-          <ShareIcon className="cardIcon"/>
-        </a>
-        </IconButton>
+        <ul className="iconUl">
+        <li className="iconLi">
+            <a
+              href={projectData.githubUrl}
+              target='_blank'
+              rel='noreferrer'
+              className="iconA"
+            >
+              {/* <p className="popoverText">View the code on Github</p> */}
+              <i className='fab fa-github' aria-hidden='true'></i>
+            </a>
+          </li>
+          {/* <p className="popoverText">View the deployed website</p> */}
+          <li className="iconLi">
+            <a
+              href={projectData.url}
+              target='_blank'
+              rel='noreferrer'
+              className="iconA"
+            >
+              <ShareIcon className="cardIcon"/>
+            </a>
+          </li>
+        </ul>
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
