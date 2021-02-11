@@ -1,12 +1,10 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import {
-  createMuiTheme,
   withStyles,
   makeStyles,
-  ThemeProvider,
 } from '@material-ui/core/styles';
-import { green, purple, deepOrange } from '@material-ui/core/colors';
+import { deepOrange } from '@material-ui/core/colors';
 import SaveIcon from '@material-ui/icons/Save';
 import myResume from '../../helpers/resume/myResume.pdf';
 
