@@ -5,6 +5,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import GrainIcon from '@material-ui/icons/Grain';
 import profilePic from '../../helpers/images/profilepic2.jpeg';
+import ContactMe from '../ContactMe';
 
 const useStyles = makeStyles((theme) => ({
   link: {
@@ -45,6 +46,7 @@ export default function Header() {
     </header>
     </div>
     <div className='infoContainer'>
+      <ContactMe/>
     <div className="profilePic" style={{ backgroundImage: `url(${profilePic})` }}>
       </div>
       <div className="aboutMe" id="aboutMe">

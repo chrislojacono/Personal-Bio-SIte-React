@@ -1,0 +1,46 @@
+.contactContainer{
+    background-color: white;
+    border-radius: 10px;
+}
+.contactButton{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    height:40px;
+    font-size:1.6em;
+    position: relative;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .contactButton:hover{
+    background:#fff;
+    color:#d85e26;
+  }
+  .contactButton:before,contactButton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #d85e26;
+    transition:400ms ease all;
+  }
+  .contactButton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .contactButton:hover:before,.contactButton:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .contactWrapper{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+  }
