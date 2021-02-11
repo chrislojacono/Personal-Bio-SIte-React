@@ -8,9 +8,9 @@ const ContactMe = () => {
   const toggle = () => setFadeIn(!fadeIn);
 
   return (
-    <div>
-      <Button color='primary' onClick={toggle}>
-        Contact Me!
+    <div className="contactWrapper">
+      <Button className="contactButton" color='inherit' onClick={toggle}>
+        Contact
       </Button>
       <Fade in={fadeIn} tag='div' className='mt-3'>
         <div className="contactContainer p-2">
