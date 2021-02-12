@@ -143,6 +143,7 @@
   display: none;
   transition: all 0.5s;
 }
-.iconLi:hover .popoverText{
+#githubLi:hover .popoverText{
   display: block;
+  color: red;
 }

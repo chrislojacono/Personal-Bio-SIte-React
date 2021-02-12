@@ -63,14 +63,14 @@ export default function ProjectCard({ projectData }) {
       </CardContent>
       <CardActions disableSpacing className='d-flex justify-content-center mt-auto' >
         <ul className="iconUl">
-        <li className="iconLi">
+        <p className="popoverText">View the code on Github</p>
+        <li className="iconLi" id="githubLi">
             <a
               href={projectData.githubUrl}
               target='_blank'
               rel='noreferrer'
               className="iconA"
             >
-              {/* <p className="popoverText">View the code on Github</p> */}
               <i className='fab fa-github' aria-hidden='true'></i>
             </a>
           </li>
