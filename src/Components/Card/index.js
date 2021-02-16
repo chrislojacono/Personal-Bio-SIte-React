@@ -12,6 +12,7 @@ import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import netlifyImg from '../../helpers/images/netlify.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -71,7 +72,7 @@ export default function ProjectCard({ projectData }) {
               rel='noreferrer'
               className="iconA"
             >
-              <i className='fab fa-github' aria-hidden='true'></i>
+              <i className='fab fa-github githubIcon' aria-hidden='true'></i>
             </a>
           </li>
           {/* <p className="popoverText">View the deployed website</p> */}
@@ -82,7 +83,8 @@ export default function ProjectCard({ projectData }) {
               rel='noreferrer'
               className="iconA"
             >
-              <ShareIcon className="cardIcon"/>
+              <img className="netlifyIcon" src={netlifyImg} alt="netlifyIcon"/>
+              {/* <ShareIcon className="cardIcon"/> */}
             </a>
           </li>
         </ul>
