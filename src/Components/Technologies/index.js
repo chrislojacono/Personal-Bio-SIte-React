@@ -11,6 +11,7 @@ import CSS3Icon from './css';
 import CSharpIcon from './cSharp';
 import MaterialIcon from './materialUi';
 import DotNet from './net';
+import Netlify from './netlify';
 
 export default function Technologies() {
   return (
@@ -31,6 +32,7 @@ export default function Technologies() {
           <MaterialIcon/>
           <SASS/>
           <BootstrapIcon/>
+          <Netlify/>
           <GitIcon/>
           <GithubIcon/>
           <HTMLIcon/>
