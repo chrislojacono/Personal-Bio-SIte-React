@@ -11,5 +11,5 @@ This is a website to showcase my portfolio while attending The Nashville Softwar
 ## Code style
 This is using React.js with Eslintrc
 
-## Live Demo
+## Check it out here!
 https://chrislojacono.netlify.app/
