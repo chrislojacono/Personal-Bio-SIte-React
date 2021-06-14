@@ -9,7 +9,7 @@ This is a website to showcase my portfolio while attending The Nashville Softwar
 ![screencapture-localhost-3000-2021-02-15-20_04_28](https://user-images.githubusercontent.com/66916708/108009793-0ea90680-6fc9-11eb-8113-1c59dbe805ee.png)
 
 ## Code style
-This is using React.js with Eslintr
+This is using React.js with Eslintrc
 
 ## Live Demo
 https://chrislojacono.netlify.app/
