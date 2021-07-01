@@ -12,8 +12,24 @@ import adventure from '../images/adventurelogbook.png';
 import mushroom from '../images/mushroomPicker.png';
 import sports from '../images/sportsRoster.png';
 import reactPin from '../images/pinterest3.png';
+import letsEat from '../images/letsEat.gif';
 
 const projectArray = [
+  {
+    available: true,
+    date: 'June 1, 2021',
+    description:
+      'This was my back-end capstone project! It is a place where two hungry, but indecisive, friends can choose a place to eat.',
+    description2:
+      'I built this project with React.js, Sql Server, Asp.Net Core and SignalR. A user can start a session with others and swipe through a list of restaurants and choose ones that they like. I used the Yelp API to get the data and am using Netlify as a serverless provider to avoid any CORS issues with Yelp.',
+    githubUrl: 'https://github.com/chrislojacono/Lets_Eat',
+    id: 16,
+    screenshot: letsEat,
+    technologiesUsed:
+      'React.Js, Asp.Net Core, Dapper (Micro-ORM), SignalR, Azure, Chakra UI',
+    title: `Let's Eat`,
+    url: 'https://letseatcapstone.netlify.app/',
+  },
   {
     available: true,
     date: 'December 13, 2020',
