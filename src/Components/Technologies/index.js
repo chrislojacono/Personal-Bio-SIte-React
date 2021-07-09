@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactIcon from './react';
 import JavascriptIcon from './javascript';
-import NodeIcon from './node';
 import SASS from './sass';
 import BootstrapIcon from './bootstrap';
 import GitIcon from './git';
@@ -28,7 +27,6 @@ export default function Technologies() {
           <DotNet/>
           <ReactIcon/>
           <JavascriptIcon/>
-          <NodeIcon/>
           <MaterialIcon/>
           <SASS/>
           <BootstrapIcon/>
