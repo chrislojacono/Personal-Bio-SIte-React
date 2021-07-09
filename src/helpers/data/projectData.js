@@ -27,7 +27,7 @@ const projectArray = [
     screenshot: letsEat,
     technologiesUsed:
       'React.Js, Asp.Net Core, Dapper (Micro-ORM), SignalR, Azure, Chakra UI',
-    title: `Let's Eat`,
+    title: 'Let\'s Eat',
     url: 'https://letseatcapstone.netlify.app/',
   },
   {
