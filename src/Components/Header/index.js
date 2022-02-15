@@ -52,7 +52,17 @@ export default function Header() {
       <div className="aboutMe" id="aboutMe">
         <div className="aboutChild mt-1">
           <h3>About Me</h3>
-          <p>My name is Chris LoJacono, I'm a native Tennessean and  am currently a student attending The Nashville Software School(NSS). Our cohort is a full stack program with a front-end focus on Javascript/React.js and a back-end focus on C#/.NET. Software development called to me because I'm drawn to problem solving and passionate about projects that offer a challenge. My experience both in the service industry and the rock climbing community has given me the skills to work well in teams, assume leadership, and use logic to solve puzzles under pressure.</p>
+          <p>My name is Chris LoJacono, I am a problem solver, a strong
+          communicator and am eager to grow as
+          an engineer in my career.
+          I am passionate about learning, am
+          eager to tackle more complex problems
+          and continue to find ways to maximize the
+          user experience.
+          I bring an enthusiastic, determined,
+          people-friendly, and amenable
+          personality to any team.
+          </p>
         </div>
       </div>
     </div>
